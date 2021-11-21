@@ -100,7 +100,7 @@ def on_callback_query(msg):
         result=1
         bot.sendMessage(from_id,'لتحديث بوت اضغط /start')
        	   
-bot = telepot.Bot('2105639269:AAF0R2xtnq6uB72kFSEkEirR814CxqbY9Q0')
+bot = telepot.Bot('2146659626:AAG8u0mCvZQPZ5YXmhzu32V95xWaew52gWA')
 MessageLoop(bot, {'chat': handle,
                   'callback_query': on_callback_query}).run_as_thread()
 print ('Listening ...')
